@@ -1,0 +1,19 @@
+@media screen and (max-width : 768px ){
+    body{
+        display:flex;
+        flex-direction:column;
+    }
+}
+
+section {
+    height: 100vh;
+    padding-top: 50px ;
+}
+
+#navbar{
+   height: 40px;
+    position: fixed;
+   width: 100%;
+    top: 0;
+    
+}
