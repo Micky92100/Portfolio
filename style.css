@@ -1,3 +1,15 @@
+/*FONTS*/
+
+* {
+    font-family: 'Lora', serif;
+}
+
+h1, h2, h3, em {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*GENERAL STUFF*/
+
 body {
     margin-top: 50px;
 }
@@ -7,16 +19,50 @@ section {
     padding-top: 50px;
 }
 
+#container {
+    margin: 0 150px;
+}
+
+/*NAVBAR*/
+
 #navbar {
+    margin-top: 5px;
     position: fixed;
     top: 0;
     width: 100%;
     height: 40px;
 }
 
+/*CONTENT*/
+
+#contact-form {
+    display: flex;
+    flex: 1 1 100%;
+}
+
+#form-info {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex: 1 1 50%;
+}
+
+#form-message {
+    background-color: bisque;
+    display: flex;
+    flex: 1 1 50%;
+}
+
+/*RESPONSIVE*/
+
 @media only screen and (max-width: 768px) {
     body {
         display: flex;
         flex-direction: column;
+    }
+
+    #container {
+        margin: auto;
     }
 }
