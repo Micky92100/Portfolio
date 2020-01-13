@@ -1,16 +1,19 @@
 /*FONTS*/
 
 * {
-    font-family: 'Lora', serif;
+    font-family: 'Open Sans', serif;
+    color: bisque;
 }
 
 h1, h2, h3, em {
     font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
 }
 
 /*GENERAL STUFF*/
 
 body {
+    background-image: url("images/site-bg.jpg");
     margin-top: 50px;
 }
 
