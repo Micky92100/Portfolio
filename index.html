@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Portfolio</title>
 </head>
 
@@ -13,10 +13,10 @@
 <body>
 <header>
     <nav id="navbar">
-        <a href="#welcome">Bienvenue</a>
-        <a href="#about">&#192; propos de moi</a>
-        <a href="#projects">Mes projets</a>
-        <a href="#contacts">Contacts</a>
+        <div id="welcome-nav" onclick="toSection('welcome')">Bienvenue</div>
+        <div id="about-nav" onclick="toSection('about')">&#192; propos de moi</div>
+        <div id="projects-nav" onclick="toSection('projects')">Projets</div>
+        <div id="contact-nav" onclick="toSection('contact')">Contact</div>
     </nav>
 </header>
 <div id="container">
@@ -76,7 +76,7 @@
         </article>
     </section>
 
-    <section id="contacts">
+    <section id="contact">
         <form action="" id="contact-form">
             <div id="form-info">
                 <input type="text" placeholder="Nom">
