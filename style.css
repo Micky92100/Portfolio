@@ -45,10 +45,14 @@ h2 {
 nav {
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
     height: 60px;
     display: flex;
-    background-color: #271840;
+    flex: 1;
+    flex-direction: row;
+    background-color: #221e3f;
+    border-bottom: bisque 1px solid;
 }
 
 nav > div {
@@ -59,10 +63,15 @@ nav > div {
 
 nav > div:hover {
     padding-top: 10px;
+    width: 10%;
     text-align: center;
     background-color: silver;
-    color: #271840;
+    color: #221e3f;
     cursor: pointer;
+}
+
+nav > a {
+    padding-right: 12px;
 }
 
 /*CONTENT*/
